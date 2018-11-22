@@ -1,0 +1,55 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+<script type="text/javascript" language="javascript">
+	const coded = "KDNPKa.oP9DqN@qAe1qpDPs.6a";
+        const key = "BWI0wU1NAfEkKtbPp9MSsa58VFQZLz3lXdu4OCRy6joxcGJDmgHivrY2ne7Tqh";
+        const shift = coded.length;
+        var link = "";
+        var ltr;
+        for (var i = 0; i < coded.length; i++) {
+            if (key.indexOf(coded.charAt(i)) == -1) {
+                ltr = coded.charAt(i);
+                link += (ltr);
+            }
+            else {
+                ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length;
+                link += (key.charAt(ltr));
+            }
+        }
+	const contact = document.createElement("LI");
+        contact.innerHTML = "<a href='mailto:" + link + "'>" + link + "</a>"
+	document.querySelector('.contact-list').appendChild(contact);
+</script>
