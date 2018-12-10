@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a test scenario in QUIC-Tracker"
 date:   2018-11-21 14:02:07 +0100
-categories: tutorial
+categories: Tutorial
 ---
 
 In this blog post we detail all the steps needed to add a new test scenario to QUIC-Tracker.

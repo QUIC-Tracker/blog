@@ -2,7 +2,7 @@
 layout: post
 title:  "Accepted paper at EPIQ - CoNEXT 2018"
 date:   2018-11-19 10:22:07 +0100
-categories: results paper 
+categories: Results Paper 
 ---
 
 The paper [_Observing the Evolution of QUIC Implementations_][arxiv-paper] which describes the implementation of QUIC-Tracker and the results gathered over a semester has been accepted at [Workshop on the Evolution, Performance, and Interoperability of QUIC (EPIQ)][epiq]. This workshop will be held at [CoNEXT 2018][conext] on the 4th of December in Heraklion, Crete.
