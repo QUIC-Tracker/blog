@@ -57,6 +57,10 @@ The presenter explained that they used a single-frame buffer in their experiment
 A part of the audience is confused by this statement, as this choice degrades the baseline performance of reliable transport protocols and thus weaken their evaluation.
 It also may not correspond to the solutions commonly deployed today, e.g. video streaming on YouTube is transported via reliable protocols.
 
+More details on their work can be found in [their paper][quic-fix].
+
+[quic-fix]: https://dl.acm.org/citation.cfm?id=3284857
+
 #### Acknowledgements
 
 I would like to thank Quentin De Coninck for his notes during the workshop, as well as [Robin Marx][rmarx] for [his notes][rmarx-notes] that completed mines.
